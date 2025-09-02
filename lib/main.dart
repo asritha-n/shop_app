@@ -22,8 +22,8 @@ class MyApp extends StatelessWidget {
         theme: ThemeData(
           fontFamily: 'CormorantGaramond',
           colorScheme: ColorScheme.fromSeed(
-            seedColor: Color.fromRGBO(172, 120, 186, 1),
-            primary: Color.fromRGBO(172, 120, 186, 1),
+            seedColor: Color.fromRGBO(45, 118, 112, 1),
+            primary: Color.fromRGBO(45, 118, 112, 1),
           ),
           inputDecorationTheme: const InputDecorationTheme(
             hintStyle: TextStyle(fontWeight: FontWeight.bold, fontSize: 16),

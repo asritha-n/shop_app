@@ -11,7 +11,12 @@ class ProductList extends StatefulWidget {
 }
 
 class _ProductListState extends State<ProductList> {
-  final List<String> filters = const ['All', 'Adidas', 'Nike', 'Bata'];
+  final List<String> filters = const [
+    'All',
+    'Urban Loom',
+    'Wooly Mammoth',
+    'Knit & Purl & Co.',
+  ];
   late String selectedFilter;
 
   @override
@@ -34,7 +39,7 @@ class _ProductListState extends State<ProductList> {
               Padding(
                 padding: EdgeInsets.all(20.0),
                 child: Text(
-                  'Shoes\nCollection',
+                  'Sweater\nCollection',
                   style: Theme.of(context).textTheme.titleLarge,
                 ),
               ),

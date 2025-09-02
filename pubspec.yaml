@@ -74,10 +74,10 @@ flutter:
   # list giving the asset and other descriptors for the font. For
   # example:
   fonts:
-    - family: CormorantGaramond
+    - family: SourceSans3
       fonts:
-        - asset: assets/fonts/CormorantGaramond-Bold.ttf
-        - asset: assets/fonts/CormorantGaramond-Light.ttf
+        - asset: assets/fonts/SourceSans3-Bold.ttf
+        - asset: assets/fonts/SourceSans3-Regular.ttf
           weight: 700
   #   - family: Trajan Pro
   #     fonts:
